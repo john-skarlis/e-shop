@@ -1,0 +1,2 @@
+rootProject.name='MyEShop'
+include ':app'

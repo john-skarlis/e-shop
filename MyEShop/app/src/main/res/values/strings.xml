@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">MyEShop</string>
+
+    <!--side_menu-->
+    <string name="menu_home">Αρχική</string>
+    <string name="menu_cart">Καλάθι</string>
+    <string name="menu_manage">Διαχείριση</string>
+    <string name="menu_contact">Επικοινωνία</string>
+    <string name="menu_exit">Έξοδος</string>
+
+    <!-- open kai close gia to drawer -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <!--manage_fragment_layout-->
+    <string name="manage_title">Διαχείριση</string>
+    <string name="manage_buttons_customers">Πελατες</string>
+    <string name="manage_buttons_products">Προϊοντα</string>
+    <string name="manage_buttons_sales">Πωλησεις</string>
+
+    <!--customers_fragment_layout-->
+    <string name="manage_customer_title">Διαχείριση Πελατών</string>
+    <string name="manage_customer_insert">Εισαγωγη</string>
+    <string name="manage_customer_show">Προβολη</string>
+
+    <!--products_fragment_layout-->
+    <string name="manage_products_title">Διαχείριση Προϊόντων</string>
+    <string name="manage_products_insert">Εισαγωγη</string>
+    <string name="manage_products_show">Προβολη</string>
+
+    <!--Show_customer_fragment_layout-->
+    <string name="id_text">Δώσε ID</string>
+    <string name="update_btn">Ενημερωση</string>
+    <string name="delete_btn">Διαγραφη</string>
+
+    <!--categories array-->
+    <string-array name="categories">
+        <item>Υπολογιστές</item>
+        <item>Κινητά</item>
+        <item>Κάμερες</item>
+        <item>Τηλεοράσεις</item>
+        <item>Ταμπλέτες</item>
+        <item>Ακουστικά</item>
+        <item>Παιχνιδομηχανές</item>
+        <item>Smartwatch</item>
+    </string-array>
+    
+    
+    
+    
+    <!--queries array-->
+    <string-array name="queries_array">
+        <item>query 1</item>
+        <item>query 2</item>
+        <item>query 3</item>
+        <item>query 4</item>
+        <item>query 5</item>
+    </string-array>
+    <!--queries description array-->
+    <string-array name="queries_description_array">
+        <item>Το υπόλοιπο της ποσότητας ανά προϊόν.</item>
+        <item>Τις συνολικές πωλήσεις.</item>
+        <item>Τις πωλήσεις ανά προϊόν.</item>
+        <item>Την αναλυτική κατάσταση πελάτων.</item>
+        <item>Την αναλυτική κατάσταση προϊόντων.</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

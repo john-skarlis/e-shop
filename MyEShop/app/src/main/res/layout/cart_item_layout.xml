@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Προϊόν: "
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/productname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/tv_product"
+            android:layout_alignBaseline="@id/tv_product"
+            android:text="product_name"/>
+
+        <TextView
+            android:id="@+id/tv_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/tv_product"
+            android:text="Πελάτης: "
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:id="@+id/customername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/tv_customer"
+            android:layout_alignBaseline="@id/tv_customer"
+            android:text="customer_name"/>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/price"
+            android:text="Tίμη: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_alignBaseline="@id/tv_product"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="kostos"
+            android:layout_toLeftOf="@id/money"
+            android:layout_alignBaseline="@id/tv_product"
+            />
+
+        <TextView
+            android:id="@+id/money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBaseline="@id/tv_product"
+            android:text="‎€"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingLeft="2dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="Ποσότητα: "
+            android:layout_toLeftOf="@+id/quantity"
+            android:layout_alignBaseline="@+id/tv_customer"/>
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="quantity"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/money"
+            android:layout_alignBaseline="@id/tv_customer"
+            android:layout_marginRight="10dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
